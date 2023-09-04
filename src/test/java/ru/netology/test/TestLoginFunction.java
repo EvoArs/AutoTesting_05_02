@@ -1,5 +1,7 @@
 package ru.netology.test;
 
+//java -jar artifacts/app-ibank.jar -P:profile=test
+
 import com.codeborne.selenide.Condition;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -20,8 +22,8 @@ public class TestLoginFunction {
         open("http://localhost:9999");
     }
 
-    @Test
     //Позитивный тест входа в систему с зарегистрированным пользователем
+    @Test
     @DisplayName("Should successfully login with active registered user")
     void shouldSuccessFulLoginIfRegisteredActiveUser() {
         var registeredUser = getRegisteredUser("active");
