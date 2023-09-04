@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/h2euo25x98m45l3x?svg=true)](https://ci.appveyor.com/project/EvoArs/autotesting-05-02)
